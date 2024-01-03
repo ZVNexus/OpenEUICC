@@ -18,8 +18,9 @@ android_library {
         "net.typeblog.lpac_jni",
 
         // Dependencies that must be pulled from maven,
-        "zxing-core-prebuilt-jar",
-        "zxing-android-embedded-prebuilt-aar",
+        "OpenEUICC_androidx.datastore_datastore-preferences",
+        "OpenEUICC_com.google.zxing_core",
+        "OpenEUICC_com.journeyapps_zxing-android-embedded",
 
         // Dependencies included with AOSP
         "androidx.appcompat_appcompat",
